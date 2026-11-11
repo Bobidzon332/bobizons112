@@ -1,0 +1,49 @@
+{
+ "asset": "CH_StarPlatinum",
+ "file": "CH_StarPlatinum_R15.fbx",
+ "format": "FBX 7.4 binary",
+ "rig": "R15 skinned (Root > HumanoidRootNode > LowerTorso ...)",
+ "units": "1 file unit = 1 stud",
+ "height_studs": 6.639,
+ "scale_studs_per_metre": 3.0952,
+ "origin": "Root/LowerTorso joint at 0,0,0 (feet below origin)",
+ "axes": "Y up, -Z forward",
+ "max_influences": 4,
+ "triangles_per_part": {
+  "Head": 4180,
+  "UpperTorso": 3212,
+  "LowerTorso": 2917,
+  "LeftUpperArm": 1473,
+  "LeftLowerArm": 660,
+  "LeftHand": 860,
+  "RightUpperArm": 1473,
+  "RightLowerArm": 664,
+  "RightHand": 860,
+  "LeftUpperLeg": 1908,
+  "LeftLowerLeg": 1933,
+  "LeftFoot": 232,
+  "RightUpperLeg": 1906,
+  "RightLowerLeg": 1934,
+  "RightFoot": 232
+ },
+ "triangles_total": 24444,
+ "roblox_meshpart_cap": 20000,
+ "budget_per_part": 10000,
+ "textures": {
+  "BC": "T_StarPlatinum_BC.png",
+  "N": "T_StarPlatinum_N.png",
+  "R": "T_StarPlatinum_R.png",
+  "M": "T_StarPlatinum_M.png"
+ },
+ "texture_colorspace": {
+  "BC": "sRGB",
+  "N": "Non-Color, tangent space OpenGL +Y",
+  "R": "Non-Color",
+  "M": "Non-Color"
+ },
+ "studio_import": {
+  "Rig Type": "R15 (auto-detected)",
+  "Scale Unit": "Studs",
+  "SurfaceAppearance": "ColorMap=BC, NormalMap=N, RoughnessMap=R, MetalnessMap=M"
+ }
+}

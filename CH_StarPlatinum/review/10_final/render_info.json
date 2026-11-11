@@ -1,0 +1,52 @@
+{
+  "blend": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "mode": "material",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.364136278629303,
+    -0.18638451397418976,
+    -3.4570692974966732e-09
+  ],
+  "bbox_max": [
+    0.364136278629303,
+    0.19257476925849915,
+    2.144949436187744
+  ],
+  "size_xyz": [
+    0.728272557258606,
+    0.3789592981338501,
+    2.144949436187744
+  ],
+  "objects": [
+    "CH_StarPlatinum_LOD0"
+  ],
+  "renders": {
+    "front": {
+      "file": "review/10_final/material_front.png",
+      "az_el_lens": [
+        0,
+        0,
+        0
+      ],
+      "distance": 4.479378070547703
+    },
+    "side": {
+      "file": "review/10_final/material_side.png",
+      "az_el_lens": [
+        90,
+        0,
+        0
+      ],
+      "distance": 4.654034764518563
+    },
+    "threequarter": {
+      "file": "review/10_final/material_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 3.323557852870888
+    }
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "blend": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "summary": {
+    "tris_by_lod": {
+      "0": 25050
+    },
+    "fail": [],
+    "warn": [
+      "CH_StarPlatinum_Body_LOD0: no UV layer",
+      "CH_StarPlatinum_Body_LOD0: no material",
+      "CH_StarPlatinum_Hair_LOD0: no UV layer",
+      "CH_StarPlatinum_Hair_LOD0: no material",
+      "CH_StarPlatinum_Headband_LOD0: no UV layer",
+      "CH_StarPlatinum_Headband_LOD0: no material",
+      "CH_StarPlatinum_HeadGemBezel_LOD0: no UV layer",
+      "CH_StarPlatinum_HeadGemBezel_LOD0: no material",
+      "CH_StarPlatinum_HeadGem_LOD0: no UV layer",
+      "CH_StarPlatinum_HeadGem_LOD0: no material",
+      "CH_StarPlatinum_Scarf_LOD0: no UV layer",
+      "CH_StarPlatinum_Scarf_LOD0: no material",
+      "CH_StarPlatinum_Belt_LOD0: no UV layer",
+      "CH_StarPlatinum_Belt_LOD0: no material",
+      "CH_StarPlatinum_BeltDiscR_LOD0: no UV layer",
+      "CH_StarPlatinum_BeltDiscR_LOD0: no material",
+      "CH_StarPlatinum_BeltDiscL_LOD0: no UV layer",
+      "CH_StarPlatinum_BeltDiscL_LOD0: no material",
+      "CH_StarPlatinum_BeltBuckle_LOD0: no UV layer",
+      "CH_StarPlatinum_BeltBuckle_LOD0: no material",
+      "CH_StarPlatinum_BeltGem_LOD0: no UV layer",
+      "CH_StarPlatinum_BeltGem_LOD0: no material",
+      "CH_StarPlatinum_LoinclothFront_LOD0: no UV layer",
+      "CH_StarPlatinum_LoinclothFront_LOD0: no material",
+      "CH_StarPlatinum_LoinclothBack_LOD0: no UV layer",
+      "CH_StarPlatinum_LoinclothBack_LOD0: no material",
+      "CH_StarPlatinum_Bracer_R_LOD0: no UV layer",
+      "CH_StarPlatinum_Bracer_R_LOD0: no material",
+      "CH_StarPlatinum_WristRing_R_LOD0: no UV layer",
+      "CH_StarPlatinum_WristRing_R_LOD0: no material",
+      "CH_StarPlatinum_Glove_R_LOD0: no UV layer",
+      "CH_StarPlatinum_Glove_R_LOD0: no material",
+      "CH_StarPlatinum_KneePad_R_LOD0: no UV layer",
+      "CH_StarPlatinum_KneePad_R_LOD0: no material",
+      "CH_StarPlatinum_KneeStrap_R_LOD0: no UV layer",
+      "CH_StarPlatinum_KneeStrap_R_LOD0: no material",
+      "CH_StarPlatinum_BootShaft_R_LOD0: no UV layer",
+      "CH_StarPlatinum_BootShaft_R_LOD0: no material",
+      "CH_StarPlatinum_BootFoot_R_LOD0: no UV layer",
+      "CH_StarPlatinum_BootFoot_R_LOD0: no material",
+      "CH_StarPlatinum_BootHeel_R_LOD0: no UV layer",
+      "CH_StarPlatinum_BootHeel_R_LOD0: no material",
+      "CH_StarPlatinum_ShoulderPad_R_LOD0: no UV layer",
+      "CH_StarPlatinum_ShoulderPad_R_LOD0: no material",
+      "CH_StarPlatinum_ShoulderPad_L_LOD0: no UV layer",
+      "CH_StarPlatinum_ShoulderPad_L_LOD0: no material",
+      "CH_StarPlatinum_Bracer_L_LOD0: no UV layer",
+      "CH_StarPlatinum_Bracer_L_LOD0: no material",
+      "CH_StarPlatinum_WristRing_L_LOD0: no UV layer",
+      "CH_StarPlatinum_WristRing_L_LOD0: no material",
+      "CH_StarPlatinum_Glove_L_LOD0: no UV layer",
+      "CH_StarPlatinum_Glove_L_LOD0: no material",
+      "CH_StarPlatinum_GloveStud_R_LOD0: no UV layer",
+      "CH_StarPlatinum_GloveStud_R_LOD0: no material",
+      "CH_StarPlatinum_GloveStud_L_LOD0: no UV layer",
+      "CH_StarPlatinum_GloveStud_L_LOD0: no material",
+      "CH_StarPlatinum_KneePad_L_LOD0: no UV layer",
+      "CH_StarPlatinum_KneePad_L_LOD0: no material",
+      "CH_StarPlatinum_KneeStrap_L_LOD0: no UV layer",
+      "CH_StarPlatinum_KneeStrap_L_LOD0: no material",
+      "CH_StarPlatinum_BootShaft_L_LOD0: no UV layer",
+      "CH_StarPlatinum_BootShaft_L_LOD0: no material",
+      "CH_StarPlatinum_BootFoot_L_LOD0: no UV layer",
+      "CH_StarPlatinum_BootFoot_L_LOD0: no material",
+      "CH_StarPlatinum_BootHeel_L_LOD0: no UV layer",
+      "CH_StarPlatinum_BootHeel_L_LOD0: no material",
+      "CH_StarPlatinum_AnkleRing_R_LOD0: no UV layer",
+      "CH_StarPlatinum_AnkleRing_R_LOD0: no material",
+      "CH_StarPlatinum_AnkleRing_L_LOD0: no UV layer",
+      "CH_StarPlatinum_AnkleRing_L_LOD0: no material"
+    ]
+  },
+  "objects": [
+    {
+      "name": "CH_StarPlatinum_Body_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 12382,
+        "verts_evaluated": 6547,
+        "verts": 6547,
+        "faces": 12382,
+        "boundary_edges": 724,
+        "nonmanifold_edges": 0,
+        "islands": 19,
+        "flipped_vs_recalc": 272,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Hair_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2956,
+        "verts_evaluated": 1554,
+        "verts": 1554,
+        "faces": 2956,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 38,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Headband_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 448,
+        "verts_evaluated": 224,
+        "verts": 224,
+        "faces": 448,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_HeadGemBezel_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 126,
+        "verts_evaluated": 65,
+        "verts": 65,
+        "faces": 126,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_HeadGem_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 126,
+        "verts_evaluated": 65,
+        "verts": 65,
+        "faces": 126,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Scarf_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 720,
+        "verts_evaluated": 360,
+        "verts": 360,
+        "faces": 720,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Belt_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 512,
+        "verts_evaluated": 256,
+        "verts": 256,
+        "faces": 512,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BeltDiscR_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 198,
+        "verts_evaluated": 101,
+        "verts": 101,
+        "faces": 198,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BeltDiscL_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 198,
+        "verts_evaluated": 101,
+        "verts": 101,
+        "faces": 198,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BeltBuckle_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 24,
+        "verts": 24,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BeltGem_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 24,
+        "verts": 24,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_LoinclothFront_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 248,
+        "verts_evaluated": 126,
+        "verts": 126,
+        "faces": 248,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_LoinclothBack_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 248,
+        "verts_evaluated": 126,
+        "verts": 126,
+        "faces": 248,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Bracer_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 392,
+        "verts_evaluated": 198,
+        "verts": 198,
+        "faces": 392,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_WristRing_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 176,
+        "verts_evaluated": 90,
+        "verts": 90,
+        "faces": 176,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Glove_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 288,
+        "verts_evaluated": 146,
+        "verts": 146,
+        "faces": 288,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_KneePad_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 262,
+        "verts_evaluated": 133,
+        "verts": 133,
+        "faces": 262,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_KneeStrap_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 140,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootShaft_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 800,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 800,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootFoot_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 96,
+        "faces": 188,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootHeel_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 24,
+        "verts": 24,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_ShoulderPad_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 496,
+        "verts_evaluated": 254,
+        "verts": 254,
+        "faces": 496,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_ShoulderPad_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 496,
+        "verts_evaluated": 254,
+        "verts": 254,
+        "faces": 496,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Bracer_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 392,
+        "verts_evaluated": 198,
+        "verts": 198,
+        "faces": 392,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_WristRing_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 176,
+        "verts_evaluated": 90,
+        "verts": 90,
+        "faces": 176,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_Glove_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 288,
+        "verts_evaluated": 146,
+        "verts": 146,
+        "faces": 288,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_GloveStud_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 348,
+        "verts_evaluated": 186,
+        "verts": 186,
+        "faces": 348,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 6,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_GloveStud_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 348,
+        "verts_evaluated": 186,
+        "verts": 186,
+        "faces": 348,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 6,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_KneePad_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 262,
+        "verts_evaluated": 133,
+        "verts": 133,
+        "faces": 262,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_KneeStrap_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 140,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootShaft_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 800,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 800,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootFoot_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 96,
+        "faces": 188,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_BootHeel_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 24,
+        "verts": 24,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_AnkleRing_R_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 266,
+        "verts_evaluated": 137,
+        "verts": 137,
+        "faces": 266,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 2,
+        "materials": [],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_StarPlatinum_AnkleRing_L_LOD0",
+      "type": "MESH",
+      "warn": [
+        "no UV layer",
+        "no material"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 266,
+        "verts_evaluated": 137,
+        "verts": 137,
+        "faces": 266,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 2,
+        "materials": [],
+        "modifiers": []
+      }
+    }
+  ]
+}

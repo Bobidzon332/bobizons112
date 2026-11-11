@@ -1,0 +1,75 @@
+{
+  "blend": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "mode": "clay",
+  "engine": "workbench",
+  "bbox_min": [
+    -0.36204105615615845,
+    -0.1816173940896988,
+    0.0
+  ],
+  "bbox_max": [
+    0.36204105615615845,
+    0.1915983259677887,
+    2.1440467834472656
+  ],
+  "size_xyz": [
+    0.7240821123123169,
+    0.3732157349586487,
+    2.1440467834472656
+  ],
+  "objects": [
+    "CH_StarPlatinum_Body_HIGH",
+    "CH_StarPlatinum_Hair_HIGH",
+    "CH_StarPlatinum_Headband_HIGH",
+    "CH_StarPlatinum_HeadGemBezel_HIGH",
+    "CH_StarPlatinum_HeadGem_HIGH",
+    "CH_StarPlatinum_Scarf_HIGH",
+    "CH_StarPlatinum_Belt_HIGH",
+    "CH_StarPlatinum_BeltDiscR_HIGH",
+    "CH_StarPlatinum_BeltDiscL_HIGH",
+    "CH_StarPlatinum_BeltBuckle_HIGH",
+    "CH_StarPlatinum_BeltGem_HIGH",
+    "CH_StarPlatinum_LoinclothFront_HIGH",
+    "CH_StarPlatinum_LoinclothBack_HIGH",
+    "CH_StarPlatinum_Bracer_R_HIGH",
+    "CH_StarPlatinum_WristRing_R_HIGH",
+    "CH_StarPlatinum_KneePad_R_HIGH",
+    "CH_StarPlatinum_KneeStrap_R_HIGH",
+    "CH_StarPlatinum_BootShaft_R_HIGH",
+    "CH_StarPlatinum_BootFoot_R_HIGH",
+    "CH_StarPlatinum_BootHeel_R_HIGH",
+    "CH_StarPlatinum_ShoulderPad_R_HIGH",
+    "CH_StarPlatinum_ShoulderPad_L_HIGH",
+    "CH_StarPlatinum_Bracer_L_HIGH",
+    "CH_StarPlatinum_WristRing_L_HIGH",
+    "CH_StarPlatinum_Glove_R_HIGH",
+    "CH_StarPlatinum_Glove_L_HIGH",
+    "CH_StarPlatinum_KneePad_L_HIGH",
+    "CH_StarPlatinum_KneeStrap_L_HIGH",
+    "CH_StarPlatinum_BootShaft_L_HIGH",
+    "CH_StarPlatinum_BootFoot_L_HIGH",
+    "CH_StarPlatinum_BootHeel_L_HIGH",
+    "CH_StarPlatinum_AnkleRing_R_HIGH",
+    "CH_StarPlatinum_AnkleRing_L_HIGH"
+  ],
+  "renders": {
+    "front": {
+      "file": "review/03_forms/clay_front.png",
+      "az_el_lens": [
+        0,
+        0,
+        0
+      ],
+      "distance": 4.474700983085958
+    },
+    "threequarter": {
+      "file": "review/03_forms/clay_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 3.3737362287938595
+    }
+  }
+}

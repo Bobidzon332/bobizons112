@@ -1,0 +1,34 @@
+{
+  "blend": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "mode": "material",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.445439875125885,
+    -0.18638451397418976,
+    -3.4570692974966732e-09
+  ],
+  "bbox_max": [
+    0.4454357624053955,
+    0.19257476925849915,
+    2.2148947715759277
+  ],
+  "size_xyz": [
+    0.8908756375312805,
+    0.3789592981338501,
+    2.2148947715759277
+  ],
+  "objects": [
+    "CH_StarPlatinum_LOD0"
+  ],
+  "renders": {
+    "threequarter": {
+      "file": "review/06_rig/pose_2/material_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 3.7034471436507173
+    }
+  }
+}

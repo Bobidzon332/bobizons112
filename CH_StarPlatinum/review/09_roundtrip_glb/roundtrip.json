@@ -1,0 +1,92 @@
+{
+  "file": "/tmp/hoplite/workspace/CH_StarPlatinum/exports/glb/CH_StarPlatinum.glb",
+  "errors": [],
+  "meshes": [
+    {
+      "name": "CH_StarPlatinum_LOD0",
+      "tris": 24444,
+      "verts": 18045,
+      "uv": true,
+      "materials": [
+        "MAT_StarPlatinum"
+      ],
+      "skinned": true,
+      "shape_keys": 0
+    }
+  ],
+  "armatures": [
+    {
+      "name": "ARM_StarPlatinum",
+      "bones": [
+        "HumanoidRootNode",
+        "LowerTorso",
+        "LeftUpperLeg",
+        "LeftLowerLeg",
+        "LeftFoot",
+        "RightUpperLeg",
+        "RightLowerLeg",
+        "RightFoot",
+        "UpperTorso",
+        "Head",
+        "LeftUpperArm",
+        "LeftLowerArm",
+        "LeftHand",
+        "RightUpperArm",
+        "RightLowerArm",
+        "RightHand"
+      ],
+      "roots": [
+        "HumanoidRootNode"
+      ]
+    }
+  ],
+  "clips": [],
+  "materials": [
+    "MAT_StarPlatinum"
+  ],
+  "images": [
+    {
+      "name": "T_StarPlatinum_BC_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "ok": true
+    },
+    {
+      "name": "T_StarPlatinum_M_2048-T_StarPlatinum_R_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "ok": true
+    },
+    {
+      "name": "T_StarPlatinum_N_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "ok": true
+    }
+  ],
+  "bounds_m": {
+    "min": [
+      -0.3641,
+      -0.1864,
+      -0.0
+    ],
+    "max": [
+      0.3641,
+      0.1926,
+      2.1449
+    ],
+    "size": [
+      0.7283,
+      0.379,
+      2.1449
+    ]
+  },
+  "height_m": 2.1449,
+  "render": "/tmp/hoplite/workspace/CH_StarPlatinum/review/09_roundtrip_glb/roundtrip_clay_threequarter.png"
+}

@@ -1,0 +1,55 @@
+{
+  "blend": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "summary": {
+    "tris_by_lod": {
+      "0": 24444
+    },
+    "fail": [],
+    "warn": []
+  },
+  "objects": [
+    {
+      "name": "CH_StarPlatinum_LOD0",
+      "type": "MESH",
+      "warn": [],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 24444,
+        "verts_evaluated": 12586,
+        "verts": 12586,
+        "faces": 24444,
+        "boundary_edges": 436,
+        "nonmanifold_edges": 0,
+        "islands": 94,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "MAT_StarPlatinum"
+        ],
+        "modifiers": [
+          "ARMATURE:Armature"
+        ],
+        "skin": {
+          "armature": "ARM_StarPlatinum",
+          "unweighted": 0,
+          "over_influences": 0,
+          "not_normalised": 0,
+          "tiny_weights": 0,
+          "orphan_groups": []
+        }
+      }
+    },
+    {
+      "name": "ARM_StarPlatinum",
+      "type": "ARMATURE",
+      "warn": [],
+      "fail": [],
+      "info": {
+        "bones": 17,
+        "deform_bones": 16,
+        "roots": [
+          "Root"
+        ]
+      }
+    }
+  ]
+}

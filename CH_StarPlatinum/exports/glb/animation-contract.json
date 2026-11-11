@@ -1,0 +1,17 @@
+{
+  "asset": "CH_StarPlatinum",
+  "fps": 30,
+  "time_unit": "seconds from clip start",
+  "clips": [
+    {
+      "name": "AN_PoseTest",
+      "fps": 30,
+      "frame_start": 1,
+      "frame_end": 5,
+      "length_s": 0.1333,
+      "loop": false,
+      "events_s": {}
+    }
+  ],
+  "note": "events come from pose markers on each action; loop/speed/root_motion from action custom properties"
+}
