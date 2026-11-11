@@ -1,6 +1,6 @@
 {
   "asset": "CH_StarPlatinum",
-  "generated": "2026-11-11T22:29:07",
+  "generated": "2026-11-11T22:36:01",
   "blender": "5.2.2 LTS",
   "source": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
   "target_engine": "roblox",
@@ -32,7 +32,7 @@
     ]
   },
   "files": {
-    "all": "exports/glb/CH_StarPlatinum.glb"
+    "all": "/tmp/hoplite/workspace/CH_StarPlatinum/exports/glb/CH_StarPlatinum.glb"
   },
   "lods": [
     {

@@ -348,7 +348,10 @@ def main():
     valid = reg >= 0
     nrm_files = sorted(glob.glob(os.path.join(TEX, "bake", "*normal*.png")))
     ao_files = sorted(glob.glob(os.path.join(TEX, "bake", "*ao*.png")))
-    ao = load_gray(ao_files[0], RES) if ao_files else np.ones(reg.shape, np.float32)
+    if not nrm_files or not ao_files:
+        # never fall back to a stale committed map: its UV layout may not match this run's pack
+        raise SystemExit("Error: bake maps missing in textures/bake (run 05b first)")
+    ao = load_gray(ao_files[0], RES)
     col, rough, metal = paint(pos, nor, reg, part, ao)
     col = dilate(col, valid)
     rough = dilate(rough, valid)

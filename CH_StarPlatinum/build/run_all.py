@@ -23,7 +23,7 @@ def blender(bl, script, args=()):
     cmd = [bl, "--background", "--factory-startup", "--python", script, "--"] + list(args)
     p = subprocess.run(cmd, cwd=ASSET, capture_output=True, text=True, errors="replace")
     for line in (p.stdout + p.stderr).splitlines():
-        if line.startswith(KEEP) or "Error" in line:
+        if line.strip().startswith(KEEP) or "Error" in line:
             print("   ", line, flush=True)
     return p.returncode
 
@@ -34,7 +34,9 @@ def main():
     ap.add_argument("--from", dest="first", default="02")
     ap.add_argument("--device", default="CPU", choices=["CPU", "GPU"])
     a = ap.parse_args()
-    master = "CH_StarPlatinum_master.blend"
+    # absolute paths: Blender on Windows resolves relative save paths differently from Linux
+    master = os.path.join(ASSET, "CH_StarPlatinum_master.blend")
+    A = lambda *p: os.path.join(ASSET, *p)
     for p in PHASES:
         if p[:2] < a.first or (p == "02_blockout" and a.first not in ("01", "02")):
             continue
@@ -42,28 +44,28 @@ def main():
         if p == "01_init":
             # calibrated master: reference planes at real scale, collections, ruler, game camera (asset-brief)
             blender(a.blender, os.path.join(SKILL, "init_master.py"),
-                    ["--out", master, "--name", "CH_StarPlatinum", "--height", "2.10", "--ref-front", "ref/front.png",
-                     "--ref-right", "ref/side.png", "--ref-back", "ref/back.png", "--ref-extra",
-                     "ref/stand_sheet_original.png", "--subject-frac", "0.9888", "--ground-frac", "0.0112",
+                    ["--out", master, "--name", "CH_StarPlatinum", "--height", "2.10", "--ref-front", A("ref", "front.png"),
+                     "--ref-right", A("ref", "side.png"), "--ref-back", A("ref", "back.png"), "--ref-extra",
+                     A("ref", "stand_sheet_original.png"), "--subject-frac", "0.9888", "--ground-frac", "0.0112",
                      "--cell", "2.0", "--capsule", "0.45", "2.1", "--cam-elev", "20", "--cam-az", "30",
                      "--cam-dist", "6", "--cam-lens", "35"])
         elif p == "05b_bake":
             bake = os.path.join(SKILL, "bake_maps.py")
-            common = ["--blend", master, "--low", "EXPORT", "--high", "HIGH", "--out", "textures/bake",
+            common = ["--blend", master, "--low", "EXPORT", "--high", "HIGH", "--out", A("textures", "bake"),
                       "--extrusion", "0.015", "--ray-dist", "0.03", "--device", a.device]
             blender(a.blender, bake, common + ["--maps", "normal", "--res", "2048", "--margin", "16", "--samples", "4"])
             blender(a.blender, bake, common + ["--maps", "ao", "--res", "1024", "--margin", "8", "--samples", "128"])
         elif p == "08_verify":
             blender(a.blender, os.path.join(SKILL, "export_delivery.py"),
-                    ["--blend", master, "--out", "exports/glb", "--name", "CH_StarPlatinum", "--format", "GLB",
+                    ["--blend", master, "--out", A("exports", "glb"), "--name", "CH_StarPlatinum", "--format", "GLB",
                      "--collections", "EXPORT,RIG_DEF", "--no-animation", "--engine", "roblox", "--inferred", INFERRED])
             blender(a.blender, os.path.join(SKILL, "roundtrip.py"),
-                    ["--file", "exports/glb/CH_StarPlatinum.glb", "--out", "review/09_roundtrip_glb",
+                    ["--file", A("exports", "glb", "CH_StarPlatinum.glb"), "--out", A("review", "09_roundtrip_glb"),
                      "--expect-height", "2.145"])
             blender(a.blender, os.path.join(ASSET, "tools", "fbx_roundtrip.py"),
-                    ["exports/roblox/CH_StarPlatinum_R15.fbx", "review/09_roundtrip_fbx"])
+                    [A("exports", "roblox", "CH_StarPlatinum_R15.fbx"), A("review", "09_roundtrip_fbx")])
             blender(a.blender, os.path.join(SKILL, "validate.py"),
-                    ["--blend", master, "--collections", "EXPORT,RIG_DEF", "--out", "review/09_validate.json",
+                    ["--blend", master, "--collections", "EXPORT,RIG_DEF", "--out", A("review", "09_validate.json"),
                      "--budget-tris", "30000", "--require-uv"])
             try:
                 import PIL  # noqa: F401
