@@ -1,0 +1,146 @@
+{
+  "asset": "CH_StarPlatinum",
+  "generated": "2026-11-11T22:29:07",
+  "blender": "5.2.2 LTS",
+  "source": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
+  "target_engine": "roblox",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "authoring_up": "Z",
+    "authoring_forward": "-Y",
+    "export_up": "Y",
+    "export_forward": "+Z",
+    "note": "glTF converts Z up to Y up; a subject facing -Y in Blender faces +Z in glTF"
+  },
+  "target_height_m": 2.1,
+  "bounds_m": {
+    "min": [
+      -0.5153,
+      -0.8607,
+      -0.0
+    ],
+    "max": [
+      0.3641,
+      0.2941,
+      2.1449
+    ],
+    "size": [
+      0.8794,
+      1.1547,
+      2.1449
+    ]
+  },
+  "files": {
+    "all": "exports/glb/CH_StarPlatinum.glb"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "objects": [
+        "CH_StarPlatinum_LOD0"
+      ],
+      "tris": 24444
+    }
+  ],
+  "materials": [
+    "MAT_StarPlatinum"
+  ],
+  "textures": [
+    {
+      "name": "T_StarPlatinum_BC_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "packed": false,
+      "filepath": "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_BC_2048.png"
+    },
+    {
+      "name": "T_StarPlatinum_R_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "packed": false,
+      "filepath": "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_R_2048.png"
+    },
+    {
+      "name": "T_StarPlatinum_M_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "packed": false,
+      "filepath": "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_M_2048.png"
+    },
+    {
+      "name": "T_StarPlatinum_N_2048.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "packed": false,
+      "filepath": "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_N_2048.png"
+    }
+  ],
+  "texture_contract": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color, tangent space, OpenGL +Y",
+    "roughness": "Non-Color",
+    "metallic": "Non-Color",
+    "ao": "Non-Color",
+    "packed_channels": "none by default; document any ORM packing here"
+  },
+  "skeleton": [
+    {
+      "armature": "ARM_StarPlatinum",
+      "bones": 17,
+      "deform_bones": [
+        "HumanoidRootNode",
+        "LowerTorso",
+        "UpperTorso",
+        "Head",
+        "RightUpperArm",
+        "RightLowerArm",
+        "RightHand",
+        "LeftUpperArm",
+        "LeftLowerArm",
+        "LeftHand",
+        "RightUpperLeg",
+        "RightLowerLeg",
+        "RightFoot",
+        "LeftUpperLeg",
+        "LeftLowerLeg",
+        "LeftFoot"
+      ],
+      "roots": [
+        "Root"
+      ],
+      "rest_pose": "as exported"
+    }
+  ],
+  "sockets": [],
+  "colliders": [],
+  "animation_contract": "animation-contract.json",
+  "inferred_from_no_reference": [
+    "skull under hair",
+    "ears",
+    "back of head hair mass",
+    "palms and fingers inside fists",
+    "underside of shoulder pads",
+    "knee strap back",
+    "belt disc count",
+    "absolute height"
+  ],
+  "dependencies": [
+    "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_BC_2048.png",
+    "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_R_2048.png",
+    "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_M_2048.png",
+    "/tmp/hoplite/workspace/CH_StarPlatinum/textures/T_StarPlatinum_N_2048.png"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "front": {
+  "panel": [
+   20,
+   95,
+   302,
+   900
+  ],
+  "top_row": 104,
+  "ground_row": 891,
+  "height_px": 788,
+  "left": 20,
+  "right": 298
+ },
+ "back": {
+  "panel": [
+   312,
+   95,
+   598,
+   900
+  ],
+  "top_row": 95,
+  "ground_row": 887,
+  "height_px": 793,
+  "left": 316,
+  "right": 597
+ },
+ "side": {
+  "panel": [
+   602,
+   95,
+   762,
+   900
+  ],
+  "top_row": 104,
+  "ground_row": 885,
+  "height_px": 782,
+  "left": 619,
+  "right": 761
+ }
+}

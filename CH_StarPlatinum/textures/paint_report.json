@@ -1,0 +1,20 @@
+{
+ "uv_coverage": 0.5523,
+ "res": 2048,
+ "normal_source": [
+  "/tmp/hoplite/workspace/CH_StarPlatinum/textures/bake/CH_StarPlatinum_normal.png"
+ ],
+ "ao_source": [
+  "/tmp/hoplite/workspace/CH_StarPlatinum/textures/bake/CH_StarPlatinum_ao.png"
+ ],
+ "regions_px": {
+  "skin": 672849,
+  "hair": 316625,
+  "gold": 408375,
+  "black": 742673,
+  "red": 63021,
+  "cloth": 111448,
+  "gem": 1622,
+  "inlay": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "view": "side",
+  "az": 90.0,
+  "matte": "/tmp/hoplite/workspace/CH_StarPlatinum/ref/matte_side.png",
+  "m_per_px": 0.002685,
+  "iou": 0.8287,
+  "ref_only_pct": 11.81,
+  "render_only_pct": 6.41,
+  "band_width_diff": [
+    -0.0205,
+    0.0166,
+    -0.0128,
+    -0.0051,
+    0.0077,
+    -0.0423,
+    0.0102,
+    -0.0141,
+    0.0064,
+    -0.0307
+  ]
+}

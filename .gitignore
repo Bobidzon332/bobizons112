@@ -8,3 +8,6 @@
 # Python caches
 __pycache__/
 *.pyc
+
+# CH_StarPlatinum: regenerated bake intermediates
+CH_StarPlatinum/textures/bake/
