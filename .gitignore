@@ -1,0 +1,10 @@
+# Per-user skill settings and generated skill outputs (see .agents/skills/README.md)
+.agents/skills/*/LOCAL.md
+.agents/skills/*/work/
+.agents/skills/roblox-vfx/sim/textures/
+.agents/skills/roblox-vfx/sim/meshes/
+.agents/skills/roblox-vfx/sim/out/
+
+# Python caches
+__pycache__/
+*.pyc

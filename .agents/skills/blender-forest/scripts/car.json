@@ -1,0 +1,46 @@
+{
+ "comment": "Car drive for the 19-32 s clip. Timeline frame 1 = his f570. s0 = start distance (m) along the road spline from its north end; direction +1 drives south (PATH order), -1 drives north. speed keys: [frame, metres per second], linear between keys.",
+ "s0": 40.0,
+ "direction": 1,
+ "lateral": 0.15,
+ "speed": [
+  [
+   1,
+   6.0
+  ],
+  [
+   76,
+   6.0
+  ],
+  [
+   77,
+   4.3
+  ],
+  [
+   186,
+   4.3
+  ],
+  [
+   187,
+   7.5
+  ],
+  [
+   291,
+   7.5
+  ],
+  [
+   292,
+   6.5
+  ],
+  [
+   400,
+   6.5
+  ]
+ ],
+ "frames": [
+  1,
+  400
+ ],
+ "bob_mm": 6.0,
+ "paint": null
+}

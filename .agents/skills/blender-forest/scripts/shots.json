@@ -1,0 +1,194 @@
+{
+ "fps": 30,
+ "frame_end": 390,
+ "comment": "His 19.0-32.0 s (f570-f959). Timeline frame 1 = his f570. Car drives south on the road (see car.json).",
+ "shots": [
+  {
+   "name": "S1",
+   "start": 1,
+   "end": 50,
+   "lens": 40,
+   "fstop": 5.6,
+   "focus": 10.0,
+   "ease": "linear",
+   "shake": 0.0,
+   "cam_start": {
+    "pos": [
+     9.0,
+     16.0,
+     0.6
+    ],
+    "yaw": 135,
+    "pitch": 95,
+    "roll": 0.0
+   },
+   "cam_end": {
+    "pos": [
+     8.85,
+     16.2,
+     0.6
+    ],
+    "yaw": 135,
+    "pitch": 95,
+    "roll": 0.0
+   },
+   "sun": {
+    "azimuth": 200.0,
+    "elevation": 45.0,
+    "energy": 30.0
+   },
+   "props": [
+    {
+     "name": "AE_15TH_FOREST_BUSH_01",
+     "pos": [
+      8.0,
+      15.6
+     ],
+     "rot": 20.0,
+     "scale": 1.4,
+     "z": 0.0
+    },
+    {
+     "name": "AE_15TH_TREE_YOUNG_02",
+     "pos": [
+      8.5,
+      14.6
+     ],
+     "rot": 30.0,
+     "scale": 0.9,
+     "z": -4.0
+    },
+    {
+     "name": "AE_15TH_TREE_YOUNG_01",
+     "pos": [
+      5.5,
+      13.5
+     ],
+     "rot": 0.0,
+     "scale": 0.8
+    }
+   ]
+  },
+  {
+   "name": "S2",
+   "start": 51,
+   "end": 186,
+   "lens": 26,
+   "fstop": 8.0,
+   "focus": 15.0,
+   "ease": "linear",
+   "shake": 0.0,
+   "cam_start": {
+    "pos": [
+     8.0,
+     14.0,
+     1.2
+    ],
+    "yaw": 130,
+    "pitch": 90.0,
+    "roll": 0.0
+   },
+   "cam_end": {
+    "pos": [
+     8.0,
+     14.0,
+     1.2
+    ],
+    "yaw": 130,
+    "pitch": 90.0,
+    "roll": 0.0
+   },
+   "sun": {
+    "azimuth": 215.0,
+    "elevation": 50.0,
+    "energy": 28.0
+   },
+   "props": [
+    {
+     "name": "AE_15TH_BIRCH_04",
+     "pos": [
+      6.5,
+      11.4
+     ],
+     "rot": 10.0,
+     "scale": 1.3
+    }
+   ]
+  },
+  {
+   "name": "S3",
+   "start": 187,
+   "end": 291,
+   "parent": "CarRoot",
+   "pano": {
+    "type": "FISHEYE_EQUISOLID",
+    "fov": 200,
+    "lens": 28
+   },
+   "fstop": 0,
+   "ease": "linear",
+   "shake": 0.0,
+   "cam_start": {
+    "pos": [
+     -2.1,
+     -2.8,
+     0.65
+    ],
+    "yaw": -18,
+    "pitch": 91,
+    "roll": 0.0
+   },
+   "cam_end": {
+    "pos": [
+     -2.1,
+     -2.8,
+     0.65
+    ],
+    "yaw": -18,
+    "pitch": 91,
+    "roll": 0.0
+   },
+   "sun": {
+    "azimuth": 270.0,
+    "elevation": 45.0,
+    "energy": 24.0
+   }
+  },
+  {
+   "name": "S4",
+   "start": 292,
+   "end": 390,
+   "lens": 20,
+   "fstop": 4.0,
+   "focus": 8.5,
+   "ease": "linear",
+   "shake": 0.0,
+   "cam_start": {
+    "pos": [
+     1.0,
+     -30.5,
+     9.0
+    ],
+    "yaw": 180.0,
+    "pitch": 0.0,
+    "roll": 0.0
+   },
+   "cam_end": {
+    "pos": [
+     -5.6,
+     -45.8,
+     8.0
+    ],
+    "yaw": 180.0,
+    "pitch": 0.0,
+    "roll": 0.0
+   },
+   "sun": {
+    "azimuth": 250.0,
+    "elevation": 60.0,
+    "energy": 24.0
+   },
+   "props": []
+  }
+ ]
+}
