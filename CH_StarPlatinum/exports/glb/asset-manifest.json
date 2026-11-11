@@ -1,6 +1,6 @@
 {
   "asset": "CH_StarPlatinum",
-  "generated": "2026-11-11T22:36:01",
+  "generated": "2026-11-11T22:39:29",
   "blender": "5.2.2 LTS",
   "source": "/tmp/hoplite/workspace/CH_StarPlatinum/CH_StarPlatinum_master.blend",
   "target_engine": "roblox",
@@ -16,18 +16,18 @@
   "target_height_m": 2.1,
   "bounds_m": {
     "min": [
-      -0.5153,
-      -0.8607,
+      -0.3641,
+      -0.1864,
       -0.0
     ],
     "max": [
       0.3641,
-      0.2941,
+      0.1926,
       2.1449
     ],
     "size": [
-      0.8794,
-      1.1547,
+      0.7283,
+      0.379,
       2.1449
     ]
   },

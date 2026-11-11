@@ -68,19 +68,40 @@ end
 local model = Instance.new("Model")
 model.Name = "StarPlatinum_Preview"
 local maps = { BC = image("BC"), N = image("N"), R = image("R"), M = image("M") }
-local bp = workspace:FindFirstChild("Baseplate")
-local groundY = if bp and bp:IsA("BasePart") then bp.Position.Y + bp.Size.Y / 2 else 0
-local minY = math.huge
+local minY, maxY = math.huge, -math.huge
 for _, info in manifest.parts do
 	minY = math.min(minY, info.centre[2] - info.size[2] / 2)
+	maxY = math.max(maxY, info.centre[2] + info.size[2] / 2)
 end
-local origin = Vector3.new(0, groundY - minY, -12)
+-- find empty ground in front of the current camera: raycast down, require an empty 5x8x5 box
+local cam = workspace.CurrentCamera
+local look = Vector3.new(cam.CFrame.LookVector.X, 0, cam.CFrame.LookVector.Z)
+look = if look.Magnitude > 1e-3 then look.Unit else Vector3.new(0, 0, -1)
+local right = look:Cross(Vector3.yAxis)
+local origin: Vector3? = nil
+for _, d in { 14, 22, 30, 40 } do
+	for _, k in { 0, 8, -8, 16, -16 } do
+		local probe = cam.CFrame.Position + look * d + right * k
+		local hit = workspace:Raycast(probe + Vector3.new(0, 60, 0), Vector3.new(0, -200, 0))
+		local groundY = if hit then hit.Position.Y else 0
+		local centre = Vector3.new(probe.X, groundY + (maxY - minY) / 2 + 0.05, probe.Z)
+		if #workspace:GetPartBoundsInBox(CFrame.new(centre), Vector3.new(5, maxY - minY, 5)) == 0 then
+			origin = Vector3.new(probe.X, groundY - minY + 0.02, probe.Z)
+			break
+		end
+	end
+	if origin then
+		break
+	end
+end
+assert(origin, "no empty spot found in front of the camera")
+local placeAt = origin :: Vector3
 local report, total, surface = {}, 0, "SurfaceAppearance"
 for name, info in manifest.parts do
 	local part, tris = buildMesh(name)
 	part.Name = name
 	part.Anchored = true
-	part.CFrame = CFrame.new(origin + Vector3.new(info.centre[1], info.centre[2], info.centre[3]))
+	part.CFrame = CFrame.new(placeAt + Vector3.new(info.centre[1], info.centre[2], info.centre[3]))
 	local ok = pcall(function()
 		local sa = Instance.new("SurfaceAppearance")
 		sa.ColorMapContent = Content.fromObject(maps.BC)
@@ -102,5 +123,7 @@ if recording then
 	ChangeHistoryService:FinishRecording(recording, Enum.FinishRecordingOperation.Commit)
 end
 local cf, size = model:GetBoundingBox()
+-- frame the front of the model (it faces -Z, so the camera sits on its -Z side)
+cam.CFrame = CFrame.lookAt(cf.Position + Vector3.new(3.5, 1.2, -11), cf.Position + Vector3.new(0, 0.3, 0))
 return string.format("parts=%d tris=%d size=%s at=%s maps=%s | %s", #report, total, tostring(size),
 	tostring(cf.Position), surface, table.concat(report, ", "))

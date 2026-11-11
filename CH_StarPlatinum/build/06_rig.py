@@ -164,6 +164,10 @@ def pose_action(arm_ob):
             pb.keyframe_insert("rotation_quaternion", frame=frame)
     act.use_fake_user = True
     arm_ob.animation_data.action = None      # rest pose stays the default state of the file
+    for pb in arm_ob.pose.bones:             # keying leaves the last pose on the bones; exporters read it
+        pb.rotation_quaternion = Quaternion()
+        pb.location = (0, 0, 0)
+        pb.scale = (1, 1, 1)
     return act
 
 
